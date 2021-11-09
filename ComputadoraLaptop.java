@@ -1,4 +1,4 @@
-public class ComputadoraLaptop implements Navegar_internet, Reproducir_videos, Ejecutar_videojuego,{
+public class ComputadoraLaptop implements Navegar_internet, Reproducir_videos, Ejecutar_videojuego{
     // Atributos 
     public boolean navegar = false;
     public boolean reproducirvideos = false;
