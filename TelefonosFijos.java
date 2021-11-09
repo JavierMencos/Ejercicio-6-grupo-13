@@ -1,4 +1,4 @@
-public class Telefonosfijos implements Hacer_llamadas {
+/*public class Telefonosfijos implements Hacer_llamadas {
     public boolean llamada;
     @Override
     public boolean Hacerllamadas(int propiedad){ 
@@ -10,3 +10,4 @@ public class Telefonosfijos implements Hacer_llamadas {
       return llamada;
     }   
   }
+  */
