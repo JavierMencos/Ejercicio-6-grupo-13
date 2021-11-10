@@ -26,7 +26,7 @@ public class Vista {
                 switch (opcion) {
                     case 1:
                         System.out.println("Agregar Carrito");
-                        System.out.println("Que desea agregar?  1 Smartphone, \n2 telefono celular, \n3 telefono fijo, \n4 camara fotograficca, \n5 Computadora desktop, \n6 Computadora laptop, \n7 Smart TV, \n8 tablets, \n9 smart watch");
+                        System.out.println("Que desea agregar?  \n1 Smartphone, \n2 telefono celular, \n3 telefono fijo, \n4 camara fotograficca, \n5 Computadora desktop, \n6 Computadora laptop, \n7 Smart TV, \n8 tablets, \n9 smart watch");
                         int opcion1 = sn.nextInt(); // 1 smartphone, 2 telefono celulatr, 3 telefono fijo, 4 camara fotograficca, 5 computado desktop, 6 Computadora lptop, 7 Smart TV, 8 tablets, 9 smart watch
                         if (opcion1 == 1){
                             System.out.println ("Se es agregando un Smartphone:  Samsung  de precio: 1322  creado el:  11/11/2021  con código AR: KJN544");
@@ -50,7 +50,7 @@ public class Vista {
                         break;
 
                     case 2:
-                        System.out.println("Que producto quiere probar? 1 Smartphone, \n2 telefono celular, \n3 telefono fijo, \n4 camara fotograficca, \n5 Computadora desktop, \n6 Computadora laptop, \n7 Smart TV, \n8 tablets, \n9 smart watch");
+                        System.out.println("Que producto quiere probar? \n1 Smartphone, \n2 telefono celular, \n3 telefono fijo, \n4 camara fotograficca, \n5 Computadora desktop, \n6 Computadora laptop, \n7 Smart TV, \n8 tablets, \n9 smart watch");
                         System.out.println("");
                         int opcion2= sn.nextInt(); // 1 smartphone, 2 telefono celulatr, 3 telefono fijo, 4 camara fotograficca, 5 computado desktop, 6 Computadora lptop, 7 Smart TV, 8 tablets, 9 smart watch
                         if (opcion2 == 1){
