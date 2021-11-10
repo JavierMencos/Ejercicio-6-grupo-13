@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
  
-public class JavaApplication219 {
+public class Vista {
  
     public static void main(String[] args) {
  
@@ -11,10 +11,12 @@ public class JavaApplication219 {
  
         while (!salir) {
  
-            System.out.println("1. Opcion 1");
-            System.out.println("2. Opcion 2");
-            System.out.println("3. Opcion 3");
-            System.out.println("4. Salir");
+            System.out.println("1. Agregar Carrito");
+            System.out.println("2. Probar funciones");
+            System.out.println("3. Ver Carrito");
+            System.out.println("4. Ordenar Articulos del carrito");
+            System.out.println("5. Eliminar Articulo del carrito");
+            System.out.println("6. Salir");
  
             try {
  
@@ -23,19 +25,31 @@ public class JavaApplication219 {
  
                 switch (opcion) {
                     case 1:
-                        System.out.println("Has seleccionado la opcion 1");
+                        System.out.println("Agregar Carrito");
                         break;
+
                     case 2:
-                        System.out.println("Has seleccionado la opcion 2");
+                        System.out.println("Probar funciones");
                         break;
+
                     case 3:
-                        System.out.println("Has seleccionado la opcion 3");
+                        System.out.println("Ver Carrito");
                         break;
+
                     case 4:
+                        System.out.println("Ordenar Articulos del carrito");
+                        break;
+
+                    case 5:
+                        System.out.println("Eliminar Articulo del carrito");
+                        break;
+
+                    case 6:
                         salir = true;
                         break;
+
                     default:
-                        System.out.println("Solo números entre 1 y 4");
+                        System.out.println("Solo números entre 1 y 6");
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Debes insertar un número");
